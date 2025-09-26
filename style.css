@@ -11,7 +11,7 @@
 }
 
 *{box-sizing:border-box}
-body{font-family:'Poppins',sans-serif;font-weight:400;background:#fff;color:var(--text);min-width:300px;margin:0}
+body{font-family:'Poppins',sans-serif;font-weight:400;background:#fff;color:var(--text);min-width:300px;margin:0 auto;max-width: var(--container);}
 
 .container{max-width:var(--container);margin:0 auto;padding:0 16px}
 .container.narrow{width:var(--narrow);max-width:var(--container)}
